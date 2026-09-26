@@ -87,10 +87,8 @@ npm run dev
 Open in browser:
 Navigate to http://localhost:5173 in your web browser.
 
-📸 Screenshots
+![Customer Segmentation View](./Prospective%20Customer%20Segmentation%20UI.png)
 
-Customer Segmentation View
-
-📄 License
+License
 
 This project is open-source and available under the MIT License.
