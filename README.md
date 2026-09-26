@@ -1,20 +1,96 @@
-<<<<<<< HEAD
-# React + Vite
+Prospective Customer Segmentation UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A sleek, responsive, and modern web application UI built for a Digital Banking Platform. This project showcases customer segmentation strategies using a clean layout, dynamic data rendering, and polished modern design principles.
 
-Currently, two official plugins are available:
+Note: Place your screenshot image inside the src/assets/ folder and name it preview.png (or update the image path above).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Features
 
-## React Compiler
+Dynamic Data Rendering: Renders segment cards dynamically by passing structured JavaScript arrays into reusable components.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Modern UI/UX: Clean typography, modern card designs, clear hierarchy, and distinct visual badges (Satisfied, UnderServed, Underbanked).
 
-## Expanding the Oxlint configuration
+Modular Component Architecture: Organized into modular React components (HeroText, RightCard, Navbar, etc.) for maintainability and scalability.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
-=======
-# prospective-customer-segmentation
->>>>>>> fa24aee3b5ed4a8dfafa05017d465aab732a33f9
+Fully Responsive: Styled using Tailwind CSS to adapt across screen sizes smoothly.
+
+Tech Stack
+
+Framework: React.js
+
+Build Tool: Vite
+
+Styling: Tailwind CSS
+
+Icons & Assets: SVGs and Unsplash high-resolution photography
+
+ Project Structure
+
+UI-Project/
+├── public/
+├── src/
+│   ├── assets/
+│   │   ├── hero.png
+│   │   ├── react.svg
+│   │   └── vite.svg
+│   ├── components/
+│   │   ├── Section-1/
+│   │   │   ├── Arrow.jsx
+│   │   │   ├── HeroText.jsx
+│   │   │   ├── LeftContent.jsx
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── Page1Content.jsx
+│   │   │   ├── RightCard.jsx
+│   │   │   ├── RightCardContent.jsx
+│   │   │   └── Section1.jsx
+│   │   └── Section-2/
+│   │       └── Section2.jsx
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+└── vite.config.js
+
+
+Getting Started
+
+Follow these instructions to get a local copy up and running on your machine.
+
+Prerequisites
+
+Ensure you have Node.js installed on your system.
+
+Installation
+
+Clone the repository:
+
+git clone https://github.com/Mysterious-Magici/prospective-customer-segmentation.git
+
+
+Navigate into the project directory:
+
+cd prospective-customer-segmentation
+
+
+Install dependencies:
+
+npm install
+
+
+Start the local development server:
+
+npm run dev
+
+
+Open in browser:
+Navigate to http://localhost:5173 in your web browser.
+
+📸 Screenshots
+
+Customer Segmentation View
+
+📄 License
+
+This project is open-source and available under the MIT License.
